@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { WalletCreation, SendTransaction, WalletBalance } from "./components";
-import { home, genwallet, wallet, send } from './assets';
+import { home, genwallet, wallet, send, nexlogo } from './assets';
 
 function App() {
     const [activeComponent, setActiveComponent] = useState('home');
@@ -10,14 +10,7 @@ function App() {
             case 'home':
                 return (
                     <div className="text-center">
-                        <h2 className="text-3xl font-bold mb-4">Welcome to NEXCOIN</h2>
                         <p className="mb-4">Your gateway to secure and efficient cryptocurrency transactions.</p>
-                        <ul className="list-disc list-inside mb-4 text-left">
-                            <li>Create a new wallet</li>
-                            <li>Check your wallet balance</li>
-                            <li>Send transactions securely</li>
-                        </ul>
-                        <p>Use the navigation bar below to get started!</p>
                     </div>
                 );
             case 'create':

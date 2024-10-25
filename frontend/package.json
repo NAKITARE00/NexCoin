@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "proxy": "http://localhost:5000",
   "dependencies": {
     "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
     "@spheron/protocol-sdk": "^1.1.0",
@@ -18,11 +19,13 @@
     "@tonconnect/sdk": "^3.0.5",
     "@tonconnect/ui-react": "^2.0.9",
     "@vkruglikov/react-telegram-web-app": "^2.1.9",
+    "axios": "^1.7.7",
     "buffer": "^6.0.3",
     "dotenv": "^16.4.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0",
+    "recharts": "^2.13.0",
     "thirdweb": "^5.61.6",
     "ton": "^13.9.0",
     "tonweb": "^0.0.66"
